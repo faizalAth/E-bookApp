@@ -1,0 +1,15 @@
+.bg-custome{
+	background-color: #303f9f;
+}
+
+.navbar .navbar-nav .nav-item :hover {
+	background-color: white;
+	border-radius: 7px;
+	color:#303f9f ;
+} 
+
+@media (max-width:768px) {
+	.btn{
+	display: none !important;
+	}
+  }
