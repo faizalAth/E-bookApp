@@ -8,8 +8,7 @@
 	color:#303f9f ;
 } 
 
-@media (max-width:768px) {
-	.btn{
-	display: none !important;
-	}
-  }
+.footer{
+	background-color: #303f9f;
+	color: white;
+}

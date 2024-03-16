@@ -1,6 +1,6 @@
 <!-- main header -->
 <div class="container-fluid">
-	<div class="row p-3">
+	<div class="row p-2">
 		<div class="col-md-3">
 			<h1 class="text-success"><i class="fa-solid fa-book"></i>E-book</h1>
 		</div>
@@ -30,9 +30,9 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-					<li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-book"></i> Recent Book</a></li>
-					<li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-book-open"></i> New Book</a></li>
-					<li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-book"></i> Old Book</a></li>
+					<li class="nav-item"><a class="nav-link active" href="#recent_book_id"><i class="fa-solid fa-book"></i> Recent Book</a></li>
+					<li class="nav-item"><a class="nav-link active" href="#new_book_id"><i class="fa-solid fa-book-open"></i> New Book</a></li>
+					<li class="nav-item"><a class="nav-link active" href="#old_book_id"><i class="fa-solid fa-book"></i> Old Book</a></li>
 				</ul>
 				<form class="" role="search">
 					<button class="btn btn-light" type="submit"><i class="fa-solid fa-gear"></i> Setting</button>

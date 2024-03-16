@@ -9,6 +9,7 @@
 <%@ include file="common-components/common-resources.jsp"%>
 </head>
 <style>
+
 .banner-img {
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("img/book_banner.jpg");
 	width: 100%;
@@ -20,6 +21,7 @@
 
 .hover-effect{
     transition: transform 0.3s ease-in-out;
+    border: none;
 }
 .hover-effect:hover{
 	transform: scale(1.03);
@@ -37,7 +39,7 @@
 
 
 	<!-- Recent Book -->
-	<div class="container-fluid ">
+	<div class="container-fluid " id="recent_book_id">
 		<h3 class="text-center mt-2">Recent Book</h3>
 		<div class="row justify-content-center">
 			<div class="col-md-3 col-6 text-center">
@@ -48,8 +50,8 @@
 						<p>Josh Thompson</p>
 						<p>Category : New</p>
 						<div class="text-center">
-							<a class="btn btn-sm btn-danger">Add Cart</a> 
-							<a class="btn btn-sm btn-success">$150</a>
+							<a class="btn btn-sm btn-danger"><i class="fa-solid fa-cart-shopping"></i> Add Cart</a> 
+							<a class="btn btn-sm btn-success">$130</a>
 							<a class="btn btn-sm btn-danger">View</a>
 						</div>
 					</div>
@@ -64,8 +66,8 @@
 						<p>Herbert Schildt</p>
 						<p>Category : New</p>
 						<div class="text-center">
-							<a class="btn btn-sm btn-danger">Add Cart</a> 
-							<a class="btn btn-sm btn-success">$150</a>
+							<a class="btn btn-sm btn-danger"><i class="fa-solid fa-cart-shopping"></i> Add Cart</a> 
+							<a class="btn btn-sm btn-success">$190</a>
 							<a class="btn btn-sm btn-danger">View</a>
 						</div>
 					</div>
@@ -80,8 +82,8 @@
 						<p>Balaguru swamy</p>
 						<p>Category : New</p>
 						<div class="text-center">
-							<a class="btn btn-sm btn-danger">Add Cart</a> 
-							<a class="btn btn-sm btn-success">$150</a>
+							<a class="btn btn-sm btn-danger"><i class="fa-solid fa-cart-shopping"></i> Add Cart</a> 
+							<a class="btn btn-sm btn-success">$50</a>
 							<a class="btn btn-sm btn-danger">View</a>
 						</div>
 					</div>
@@ -96,8 +98,8 @@
 						<p>Surbhi Kakar</p>
 						<p>Category : New</p>
 						<div class="text-center">
-							<a class="btn btn-sm btn-danger">Add Cart</a> 
-							<a class="btn btn-sm btn-success">$150</a>
+							<a class="btn btn-sm btn-danger"><i class="fa-solid fa-cart-shopping"></i> Add Cart</a> 
+							<a class="btn btn-sm btn-success">$105</a>
 							<a class="btn btn-sm btn-danger">View</a>
 						</div>
 					</div>
@@ -115,7 +117,7 @@
 	</div>
 	
 	<!-- Recent Book -->
-	<div class="container-fluid ">
+	<div class="container-fluid" id="new_book_id">
 		<h3 class="text-center mt-2">New Book</h3>
 		<div class="row justify-content-center">
 			<div class="col-md-3 col-6 text-center">
@@ -177,7 +179,7 @@
 	</div>
 	
 	<!-- OLD Book -->
-	<div class="container-fluid ">
+	<div class="container-fluid" id="old_book_id">
 		<h3 class="text-center mt-2">Old Book</h3>
 		<div class="row justify-content-center">
 			<div class="col-md-3 col-6 text-center">
@@ -249,6 +251,7 @@
 		</div>
 	</div>
 	
+	<%@ include file="common-components/footer.jsp" %>
 	<!-- END OLD BOOK -->
 </body>
 </html>
