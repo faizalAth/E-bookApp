@@ -4,7 +4,10 @@
 <html>
 
 <head>
-<meta charset="ISO-8859-1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>E-Book || Home</title>
 <%@ include file="common-components/common-resources.jsp"%>
 </head>
@@ -31,7 +34,7 @@
 
 	<%@ include file="common-components/navbar.jsp"%>
 
-	<div class="container-fluid banner-img">
+	<div class=" banner-img">
 		<div class="row  text-center">
 			<h1 class="mt-3 text-white">E-Book Management System</h1>
 		</div>

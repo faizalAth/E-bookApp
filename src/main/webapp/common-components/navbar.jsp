@@ -1,8 +1,9 @@
 <!-- main header -->
-<div class="container-fluid">
+<div class="fixed-div fixed-tops">
+	<div class="container-fluid bg-white">
 	<div class="row p-2">
 		<div class="col-md-3">
-			<h1 class="text-success"><i class="fa-solid fa-book"></i>E-book</h1>
+			<h1><a class="text-success" href="index.jsp"><i class="fa-solid fa-book"></i>E-book</a></h1>
 		</div>
 		<div class="col-md-6">
 			<form class="d-flex" role="search">
@@ -12,15 +13,15 @@
 			</form>
 		</div>
 		<div class="col-md-3">
-			<a href="#" class="ml-3 btn btn-primary"> Login</a>
-			<a href="#" class="btn btn-success"> Register</a>
+			<a href="login.jsp" class="ml-3 btn btn-primary"><i class="fa-solid fa-user"></i> Login</a>
+			<a href="register.jsp" class="btn btn-success"><i class="fa-solid fa-user-plus"></i> Register</a>
 		</div>
 	</div> 
 </div>
 
 	<nav class="navbar navbar-expand-lg  navbar-dark bg-custome">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+			<a class="navbar-brand" href="index.jsp"><i class="fa-solid fa-house"></i></a>
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,10 +30,10 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link active" href="index.jsp">Home</a></li>
 					<li class="nav-item"><a class="nav-link active" href="#recent_book_id"><i class="fa-solid fa-book"></i> Recent Book</a></li>
 					<li class="nav-item"><a class="nav-link active" href="#new_book_id"><i class="fa-solid fa-book-open"></i> New Book</a></li>
-					<li class="nav-item"><a class="nav-link active" href="#old_book_id"><i class="fa-solid fa-book"></i> Old Book</a></li>
+					<li class="nav-item"><a class="nav-link active" href="#new_book_id"><i class="fa-solid fa-book"></i> Old Book</a></li>
 				</ul>
 				<form class="" role="search">
 					<button class="btn btn-light" type="submit"><i class="fa-solid fa-gear"></i> Setting</button>
@@ -41,3 +42,4 @@
 			</div>
 		</div>
 	</nav>
+</div>
